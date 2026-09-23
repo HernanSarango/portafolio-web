@@ -494,3 +494,32 @@ footer {
     width: 95%;
   }
 }
+@media(max-width:900px){
+
+.nav-links.active{
+
+display:flex;
+
+position:absolute;
+
+top:80px;
+
+right:20px;
+
+width:220px;
+
+background:#0F172A;
+
+padding:25px;
+
+border-radius:15px;
+
+flex-direction:column;
+
+gap:20px;
+
+border:1px solid var(--border);
+
+}
+
+}
